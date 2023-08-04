@@ -1,0 +1,4 @@
+from jobs.hello_spark.main import analyze
+from jobs.fare_analysis.fare_dist_corr import analyse_fare_dist
+from jobs.fare_analysis.fare_loc import analyze_fare_loc
+from jobs.fare_analysis.fare_passenger_count import analyse_fare_pass_cnt

@@ -1,0 +1,3 @@
+from jobs.hello_spark.main import analyze
+from jobs.trip_analysis.duration_dist import analyse_duration_dist
+from jobs.trip_analysis.top_locations import analyze_top_locations
