@@ -20,7 +20,7 @@ In this assignment, we aim to demonstrate our proficiency in the following skill
 
 The repository is organized as follows:
 
-- `data/`: This directory contains the NYC Taxi dataset (not included in the repository due to size constraints). You can download the dataset from [link] and place it here.
+- `data/`: This directory contains the NYC Taxi dataset (not included in the repository due to size constraints). You can download the dataset from [link].
 - `src/`: This directory contains the Spark jobs and related code.
     - `jobs/`: Each analysis section has a corresponding Spark job implemented here.
         - `trip_analysis`: Spark job for analyzing trip-related data.
@@ -46,7 +46,7 @@ To deploy a Spark cluster on the Google Cloud Platform, follow these steps:
 2. Set up the GCP project and configure the necessary credentials.
 3. Adjust the cluster and job configurations in the Spark job scripts.
 4. Run the Spark jobs using the provided scripts in the `src/jobs` directory.
-5. Explore the Jupyter Notebook file in the directory for detailed analysis and visualizations.
+5. Explore the Jupyter Notebook file in the directory for detailed analysis.
 
 ## Reporting(note)
 
@@ -64,9 +64,9 @@ The `tip_analysis` section focuses on analyzing tip-related data. We examine fac
 
 ### Fare Analysis
 
-In the `fare_analysis` section, we analyze fare-related information. This includes studying fare amounts in relation to trip attributes and identifying any anomalies or noteworthy trends in the fare data.
+In the `fare_analysis` section, we analyze fare-related information. This includes studying fare amounts in relation to trip attributes for noteworthy trends in the fare data.
 
 ### Demand Prediction
 
-The `demand_prediction` section involves predicting taxi demand based on historical data. We build a predictive model using Spark to anticipate high-demand areas and times, which can provide valuable insights for taxi service optimization.
+The `demand_prediction` section involves predicting taxi demand based on historical data. We build a predictive model using Spark to anticipate passenger counts in the next hour, which can provide valuable insights for taxi service optimization.
 
