@@ -29,11 +29,11 @@ The repository is organized as follows:
         - `demand_prediction`: Spark job for predicting taxi demand.
 - `notebooks/`: This directory contains Jupyter Notebook files for each analysis section.
     - `NYC_spark.ipynb`: Jupyter Notebook for code analysis.
-- `README.md`: This document, providing an overview of the project, its structure, and instructions for reproducing the results.
+- `README.md`: This document, provides an overview of the project, its structure, and instructions for reproducing the results.
 
 ## Deployment on GCP
 
-To deploy a Spark cluster on Google Cloud Platform, follow these steps:
+To deploy a Spark cluster on the Google Cloud Platform, follow these steps:
 
 1. Set up a GCP project and enable necessary APIs.
 2. Create a Dataproc cluster with Spark.
@@ -50,17 +50,17 @@ To deploy a Spark cluster on Google Cloud Platform, follow these steps:
 
 ## Reporting(note)
 
-We have included detailed comments within the Spark job scripts and Jupyter Notebook files to explain our analysis approach and interpretation of results. You can find these explanations within each file.
+We have included detailed comments within the Jupyter Notebook file to explain our analysis approach and interpretation of results. You can find these explanations within the file.
 
 ## Analysis Sections
 
 ### Trip Analysis
 
-In the `trip_analysis` section, we explore and analyze various aspects related to taxi trips, such as trip duration, distance, and pickup/drop-off locations. We delve into patterns and trends to uncover insights about taxi usage within NYC.
+In the `trip_analysis` section, we analyze various aspects of taxi trips, such as trip duration, distance, and pickup/drop-off locations. We delve into patterns and trends to uncover insights about taxi usage in NYC.
 
 ### Tip Analysis
 
-The `tip_analysis` section focuses on analyzing tip-related data. We examine factors that influence tip amounts, such as trip distance, time of day, and location, to provide a deeper understanding of tipping behavior.
+The `tip_analysis` section focuses on analyzing tip-related data. We examine factors influencing tip amounts, such as trip distance, time of day, and location, to provide a deeper understanding of tipping behavior.
 
 ### Fare Analysis
 
